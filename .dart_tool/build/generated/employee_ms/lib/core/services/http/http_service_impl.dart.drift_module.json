@@ -1,0 +1,11 @@
+{
+  "elements": {},
+  "imports": [
+    "package:dio/dio.dart",
+    "package:employee_ms/core/services/http/http_service.dart",
+    "package:employee_ms/core/services/http/interceptor/session_interceptor.dart",
+    "package:flutter/foundation.dart",
+    "package:flutter_riverpod/flutter_riverpod.dart",
+    "package:pretty_dio_logger/pretty_dio_logger.dart"
+  ]
+}

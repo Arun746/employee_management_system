@@ -1,0 +1,296 @@
+{
+  "elements": {
+    "my_profile_table": {
+      "id": {
+        "library_uri": "package:employee_ms/core/services/storage/database/tables/my_profile_table.dart",
+        "name": "my_profile_table"
+      },
+      "declaration": {
+        "source_uri": "package:employee_ms/core/services/storage/database/tables/my_profile_table.dart",
+        "offset": 42,
+        "name": "MyProfileTable"
+      },
+      "references": [],
+      "type": "table",
+      "columns": [
+        {
+          "sqlType": {
+            "builtin": "int"
+          },
+          "nullable": false,
+          "nameInSql": "id",
+          "nameInDart": "id",
+          "declaration": {
+            "source_uri": "package:employee_ms/core/services/storage/database/tables/my_profile_table.dart",
+            "offset": 89,
+            "name": "id"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [
+            {
+              "type": "primary",
+              "is_auto_increment": true
+            }
+          ],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "string"
+          },
+          "nullable": false,
+          "nameInSql": "user_id",
+          "nameInDart": "userId",
+          "declaration": {
+            "source_uri": "package:employee_ms/core/services/storage/database/tables/my_profile_table.dart",
+            "offset": 141,
+            "name": "userId"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [
+            {
+              "type": "unique"
+            }
+          ],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "string"
+          },
+          "nullable": true,
+          "nameInSql": "email",
+          "nameInDart": "email",
+          "declaration": {
+            "source_uri": "package:employee_ms/core/services/storage/database/tables/my_profile_table.dart",
+            "offset": 187,
+            "name": "email"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "string"
+          },
+          "nullable": true,
+          "nameInSql": "full_name",
+          "nameInDart": "fullName",
+          "declaration": {
+            "source_uri": "package:employee_ms/core/services/storage/database/tables/my_profile_table.dart",
+            "offset": 234,
+            "name": "fullName"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "string"
+          },
+          "nullable": true,
+          "nameInSql": "country_id",
+          "nameInDart": "countryId",
+          "declaration": {
+            "source_uri": "package:employee_ms/core/services/storage/database/tables/my_profile_table.dart",
+            "offset": 284,
+            "name": "countryId"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "string"
+          },
+          "nullable": true,
+          "nameInSql": "country_code",
+          "nameInDart": "countryCode",
+          "declaration": {
+            "source_uri": "package:employee_ms/core/services/storage/database/tables/my_profile_table.dart",
+            "offset": 335,
+            "name": "countryCode"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "string"
+          },
+          "nullable": true,
+          "nameInSql": "country",
+          "nameInDart": "country",
+          "declaration": {
+            "source_uri": "package:employee_ms/core/services/storage/database/tables/my_profile_table.dart",
+            "offset": 388,
+            "name": "country"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "string"
+          },
+          "nullable": true,
+          "nameInSql": "country_flag",
+          "nameInDart": "countryFlag",
+          "declaration": {
+            "source_uri": "package:employee_ms/core/services/storage/database/tables/my_profile_table.dart",
+            "offset": 437,
+            "name": "countryFlag"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "string"
+          },
+          "nullable": true,
+          "nameInSql": "profile_photo",
+          "nameInDart": "profilePhoto",
+          "declaration": {
+            "source_uri": "package:employee_ms/core/services/storage/database/tables/my_profile_table.dart",
+            "offset": 490,
+            "name": "profilePhoto"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "string"
+          },
+          "nullable": true,
+          "nameInSql": "account_status",
+          "nameInDart": "accountStatus",
+          "declaration": {
+            "source_uri": "package:employee_ms/core/services/storage/database/tables/my_profile_table.dart",
+            "offset": 544,
+            "name": "accountStatus"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "string"
+          },
+          "nullable": true,
+          "nameInSql": "phone_number",
+          "nameInDart": "phoneNumber",
+          "declaration": {
+            "source_uri": "package:employee_ms/core/services/storage/database/tables/my_profile_table.dart",
+            "offset": 599,
+            "name": "phoneNumber"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        },
+        {
+          "sqlType": {
+            "builtin": "dateTime"
+          },
+          "nullable": true,
+          "nameInSql": "created_at",
+          "nameInDart": "createdAt",
+          "declaration": {
+            "source_uri": "package:employee_ms/core/services/storage/database/tables/my_profile_table.dart",
+            "offset": 656,
+            "name": "createdAt"
+          },
+          "typeConverter": null,
+          "clientDefaultCode": null,
+          "defaultArgument": null,
+          "overriddenJsonName": null,
+          "referenceName": null,
+          "documentationComment": null,
+          "constraints": [],
+          "customConstraints": null
+        }
+      ],
+      "existing_data_class": null,
+      "table_constraints": [],
+      "custom_parent_class": null,
+      "interfaces_for_row_class": [],
+      "fixed_entity_info_name": null,
+      "base_dart_name": "MyProfileTable",
+      "row_class_name": "MyProfileTableData",
+      "companion_class_name": null,
+      "without_rowid": false,
+      "strict": false,
+      "write_default_constraints": true,
+      "custom_constraints": [],
+      "attached_indices": []
+    }
+  },
+  "imports": [
+    "package:drift/drift.dart"
+  ]
+}

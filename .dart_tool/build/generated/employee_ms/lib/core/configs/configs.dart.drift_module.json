@@ -1,0 +1,6 @@
+{
+  "elements": {},
+  "imports": [
+    "package:employee_ms/core/configs/urls.dart"
+  ]
+}

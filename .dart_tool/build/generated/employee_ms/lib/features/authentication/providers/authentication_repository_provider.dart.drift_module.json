@@ -1,0 +1,9 @@
+{
+  "elements": {},
+  "imports": [
+    "package:employee_ms/core/services/http/http_service_impl.dart",
+    "package:employee_ms/features/authentication/repositories/authentication_repository.dart",
+    "package:employee_ms/features/authentication/repositories/authentication_repository_impl.dart",
+    "package:flutter_riverpod/flutter_riverpod.dart"
+  ]
+}

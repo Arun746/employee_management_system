@@ -1,0 +1,6 @@
+{
+  "elements": {},
+  "imports": [
+    "package:email_validator/email_validator.dart"
+  ]
+}

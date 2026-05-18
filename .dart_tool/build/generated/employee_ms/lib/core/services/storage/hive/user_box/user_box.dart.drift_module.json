@@ -1,0 +1,8 @@
+{
+  "elements": {},
+  "imports": [
+    "package:flutter/foundation.dart",
+    "package:freezed_annotation/freezed_annotation.dart",
+    "package:hive_flutter/hive_flutter.dart"
+  ]
+}

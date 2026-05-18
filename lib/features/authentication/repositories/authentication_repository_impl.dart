@@ -1,0 +1,9 @@
+
+import 'package:employee_ms/core/services/http/http_service.dart';
+import 'package:employee_ms/features/authentication/repositories/authentication_repository.dart';
+
+
+class AuthenticationRepositoryImpl implements AuthenticationRepository {
+  final HttpService httpService;
+  AuthenticationRepositoryImpl(this.httpService);
+}

@@ -1,0 +1,12 @@
+{
+  "elements": {},
+  "imports": [
+    "package:employee_ms/core/enums/enums.dart",
+    "package:employee_ms/core/services/notification/notification_settings_box.dart",
+    "package:employee_ms/core/services/storage/hive/app_box/app_box.dart",
+    "package:firebase_messaging/firebase_messaging.dart",
+    "package:flutter/material.dart",
+    "package:flutter/foundation.dart",
+    "package:flutter_local_notifications/flutter_local_notifications.dart"
+  ]
+}

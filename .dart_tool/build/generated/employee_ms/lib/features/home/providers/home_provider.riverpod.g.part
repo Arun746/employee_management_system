@@ -1,0 +1,20 @@
+// **************************************************************************
+// RiverpodGenerator
+// **************************************************************************
+
+String _$homeHash() => r'1f6bd143a98288830ac8dc3da0921c66a0ed7f97';
+
+/// See also [Home].
+@ProviderFor(Home)
+final homeProvider = AutoDisposeNotifierProvider<Home, HomeState>.internal(
+  Home.new,
+  name: r'homeProvider',
+  debugGetCreateSourceHash:
+      const bool.fromEnvironment('dart.vm.product') ? null : _$homeHash,
+  dependencies: null,
+  allTransitiveDependencies: null,
+);
+
+typedef _$Home = AutoDisposeNotifier<HomeState>;
+// ignore_for_file: type=lint
+// ignore_for_file: subtype_of_sealed_class, invalid_use_of_internal_member, invalid_use_of_visible_for_testing_member, deprecated_member_use_from_same_package

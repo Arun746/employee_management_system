@@ -1,0 +1,10 @@
+{
+  "elements": {},
+  "imports": [
+    "package:employee_ms/core/enums/enums.dart",
+    "package:employee_ms/core/utils/functions.dart",
+    "package:employee_ms/core/widgets/scaffold_body/scaffold_body_provider.dart",
+    "package:flutter/material.dart",
+    "package:flutter_riverpod/flutter_riverpod.dart"
+  ]
+}

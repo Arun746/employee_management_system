@@ -1,0 +1,7 @@
+{
+  "elements": {},
+  "imports": [
+    "package:employee_ms/core/services/http/http_service.dart",
+    "package:employee_ms/features/home/repositories/home_repository.dart"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "elements": {},
+  "imports": [
+    "package:employee_ms/core/enums/enums.dart",
+    "package:employee_ms/core/styles/assets.dart",
+    "package:employee_ms/core/utils/functions.dart",
+    "package:flutter/material.dart"
+  ]
+}

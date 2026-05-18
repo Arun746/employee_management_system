@@ -1,0 +1,6 @@
+{
+  "elements": {},
+  "imports": [
+    "package:go_router/go_router.dart"
+  ]
+}

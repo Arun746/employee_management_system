@@ -1,0 +1,9 @@
+{
+  "elements": {},
+  "imports": [
+    "package:connectivity_plus/connectivity_plus.dart",
+    "package:flutter/material.dart",
+    "package:freezed_annotation/freezed_annotation.dart",
+    "package:riverpod_annotation/riverpod_annotation.dart"
+  ]
+}
